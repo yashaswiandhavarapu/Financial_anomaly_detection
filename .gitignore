@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets
+*.csv
+
+# Keep the small files required by the dashboard
+!audit_priority.csv
+!threshold_analysis.csv
+
+# Machine learning models
+*.pkl
+
+# Keep required model files
+!random_forest_model.pkl
+!isolation_forest_model.pkl
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
