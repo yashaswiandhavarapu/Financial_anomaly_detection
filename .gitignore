@@ -37,3 +37,5 @@ Thumbs.db
 
 # VS Code
 .vscode/
+
+Data/train_fraud_labels.json
